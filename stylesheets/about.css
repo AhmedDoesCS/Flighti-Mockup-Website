@@ -1,0 +1,30 @@
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+
+#hero h1 {
+    font-size: 50px;
+    border-bottom: 20px white;
+}
+
+.team {
+    background-color: #193A5D;
+    height: 200px;
+    width: 30%;
+    border-radius: 12px;
+}
+
+.team div {
+    display: flex;
+}
+
+.team img {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}

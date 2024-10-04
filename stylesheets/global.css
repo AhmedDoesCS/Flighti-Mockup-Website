@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*:focus {
+    outline: none;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    background-color: none;
+    background: none;
+    text-decoration: none;
+    border: none;
+}
+
+.flex-row {
+    display: flex;
+
+    align-items: center;
+}
+
+.divider {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    height: 2px;
+    border-radius: 1000px;
+    width: 100%;
+}
+
+/* Navigation Bar */
+#navbar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: white;
+    background-color: rgba(23, 29, 28, 0.75);
+}
+
+#navbar #links {
+    display: flex;
+    justify-content: space-between;
+    width: 17%;
+}
+
+#navbar #links a {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#navbar #social-media {
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 300px;
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar #social-media img {
+    height: 25px;
+    cursor: pointer;
+}
