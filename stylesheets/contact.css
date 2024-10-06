@@ -5,38 +5,57 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("https://media.architecturaldigest.com/photos/667969a2183c223f9ba01c52/16:9/w_2560%2Cc_limit/villes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 form {
     background-color: #193A5D;
     width: 80%;
-    height: 80%;
     border-radius: 20px;
-    padding: 20px
+    padding: 20px;
+    color: white;
 }
+
 
 textarea {
     margin: 0;
     padding: 0;
-    background-color: black;
-    width: 100%;
+    background-color: #1f638e;
     resize: none;
 }
 
 input {
-    background-color: black;
+    background-color: #1f638e;
     width: 100%;
     padding: 8px 0px;
-    border-radius: 20px;
+    border-radius: 8px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.692);
 }
 
 .form-area {
-    height: 12%;
-    margin: 10px 0px;
+    margin: 13px 0px;
     justify-content: space-around;
 }
 
-.message {
+.message textarea{
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
 
+.message textarea::placeholder{
+    color: rgba(255, 255, 255, 0.692);
+
+}
+
+label {
+    font-size: 17px;
+    margin-bottom: 4px;
 }
 

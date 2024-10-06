@@ -3,7 +3,10 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: black;
+    background-image: url("https://idsb.tmgrup.com.tr/ly/uploads/images/2021/06/28/124886.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -13,7 +16,7 @@
 }
 
 .team {
-    background-color: #193A5D;
+    background-color: #19495dbc;
     height: 200px;
     width: 30%;
     border-radius: 12px;
@@ -27,4 +30,6 @@
     height: 50px;
     width: 50px;
     background-color: white;
+    object-fit: cover;
+    border-radius: 100px;
 }

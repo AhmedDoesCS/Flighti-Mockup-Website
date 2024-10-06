@@ -20,6 +20,10 @@ button {
     border: none;
 }
 
+*::-webkit-scrollbar {
+    display: none;
+}
+
 .flex-row {
     display: flex;
 
